@@ -1,0 +1,98 @@
+TYPECRYPT = JAVASCRIPT COM A POSSIBILIDADE DE ADICIONAR TIPAGENS
+
+
+PORQUE TYPESCRIPT ?
+
+
+funçãoi que exibe dados do usuário
+
+
+
+function displayUserInformation(user){
+     return `${user.name} - ${user.email}`
+}
+
+export default displayUserInformation
+
+
+
+Desafio: incluir a informação da cidade e UF do usuário nesse retorno.
+
+
+
+problemas:
+
+
+1 - qual o formato do objeto de usuário ? 
+
+2 - utilizar user.city ou user.address.city?
+
+
+3 - Será que a cidade e UF são obrigatórias ? 
+
+
+
+
+INTELLISENSE
+
+
+O editorn ão conhece o formato da variável user e, por isso, não consegue determinar suas propriedades. N
+
+
+Com o TYPESCRIPT, o editor consegue saber 4exatamente os dados que um usuário pode ter e oferecer intelidencia de IDE.
+
+
+
+
+MITOS E VERDADES DO TYPESCRIPT
+
+
+
+Typescript diminui a produtividade - SIM E NÃO 
+
+TYPESCRIPT é a mesma coisa que transformar JAVASCRIPT em JAVA ou C# = FALSO
+
+O MERCADO NÃO USA TYPESCRIPT = FALSOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+TYPESCRIPT substitui o JAVASCRIPT = FALSOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+TYPESCRIPT atrapalha quem é iniciante = FALSOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+
+
+
+
+
+ENTENDENDO UM POUCO SOBRE REACT
+
+
+
+
+-React é uma biblioteca para construção de interfaces - TUDO AQUILO QUE O USUÁRIO INTERAGE
+
+
+- Utulizado para a construção de Single-Page Applications (SPA)
+     SPA - É quando alternamos de uma rota para outra dentro de uma aplicação sem precisar recarregar completamente a tela. No SPA, grande parte do código das telas é compartilhado e nós alteramos em tela apenas o que precisa ser alterado.
+
+
+-Tudo fica dentro do Javascript / Typescript
+
+
+- É subdividido em REACT/ REACTJS / REACT NATIVE
+
+
+
+VANTAGENS DE UTILIZAR REACT
+
+
+ - Organização do código
+      - Componentização - O código da aplicação é separado em pequenos componentes.
+
+ - Divisão de responsabilidades
+      - Backend fica responsável pela regra de negócio
+       - Front end responsável pela interfaces
+
+ - Uma API, múltiplos clientes
+
+
+
